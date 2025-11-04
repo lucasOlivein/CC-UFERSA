@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+}
+
+body {
+    object-fit: contain;
+    height: 100%;
+    margin: 0;
+    min-width: 400px;
+    display: block;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    caret-color: transparent;
+}
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+}
+
+#settings {
+    right: 1%;
+    border: 2px solid black;
+    height: 8%;
+    width: auto;
+    aspect-ratio: 1/1;
+}
+
+#settings img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    object-position: center bottom;
+}

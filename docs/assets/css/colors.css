@@ -1,0 +1,9 @@
+:root {
+    --background-color: #fff;
+    --text-color: #1f1f1f;
+}
+
+.darkmode {
+    --background-color:#202124;
+    --text-color: #999da2;
+}

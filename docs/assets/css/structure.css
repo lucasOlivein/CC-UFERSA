@@ -1,0 +1,187 @@
+/* Contém as regras css aplicadas no diagrama em index */
+
+.active {
+    box-shadow: 0 0 25px 5px rgba(13, 255, 0, 0.5);
+    background: rgba(87, 240, 11, 0.15);
+}
+
+.active:hover {
+    box-shadow: 0 0 25px 5px rgba(213, 224, 7, 0.5);
+    background: rgba(210, 221, 6, 0.15);
+}
+
+.structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    min-height: 92px;
+    height: 88%;
+    overflow: hidden;
+}
+
+.structure img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: auto;
+}
+
+.elements {
+    display: flex;
+    position: absolute;
+    height: 88%;
+    width: auto;
+    aspect-ratio: 857.933/503.05;
+}
+
+.dir {
+    position: absolute;
+    max-height: 11%;
+    height: 11%;
+    width: auto;
+    aspect-ratio: 101.033/47.1;
+
+}
+
+.dir:hover {
+    box-shadow: 0 0 25px 5px rgba(213, 224, 7, 0.5);
+    background: rgba(210, 221, 6, 0.15);
+}
+
+.file {
+    position: absolute;
+    border-radius: 50%;
+    height: 9%;
+    width: auto;
+    aspect-ratio: 1.1/1;
+}
+
+#ufrsa {
+    left: 53.2%;
+    top: 8.6%;
+}
+
+#guia {
+    left: 22%;
+    top: 30.6%;
+}
+
+#computacao-grafica {
+    left: 50%;
+    top: 31%;
+}
+
+#programacao-orientada-a-objetos {
+    left: 67%;
+    top: 31%;
+}
+
+#compiladores {
+    left: 84%;
+    top: 31%;
+}
+
+#index {
+    left: 34%;
+    top: 52.6%;
+}
+
+/* subfiles */
+.sub-file {
+    position: absolute;
+}
+
+.not-avaliable:hover {
+    box-shadow: 0 0 25px 5px rgba(244, 15, 15, 0.5);
+    background: rgba(244, 15, 15, 0.15);
+}
+
+
+#assets {
+    left: 7%;
+    top: 53%;
+    height: 5%;
+    width: 8%;
+}
+
+#components {
+    left: 16%;
+    top: 53%;
+    height: 8%;
+    width: 8%;
+}
+
+#pages {
+    left: 26%;
+    top: 53%;
+    height: 7%;
+    width: 7%;
+}
+
+#anexos {
+    left: 44%;
+    top: 54%;
+    height: 5%;
+    width: 8%;
+}
+
+#labs {
+    left: 53%;
+    top: 54%;
+    height: 5%;
+    width: 8%;
+}
+
+#css {
+    left: 1%;
+    top: 64%;
+    height: 5%;
+    width: 7%;
+}
+
+#images {
+    left: 9%;
+    top: 64%;
+    height: 5%;
+    width: 8%;
+}
+
+#cg {
+    left: 25%;
+    top: 66%;
+    height: 7%;
+    width: 8%;
+}
+
+#poo {
+    left: 34%;
+    top: 66%;
+    height: 7%;
+    width: 8%;
+}
+
+#comp {
+    left: 42%;
+    top: 80%;
+    height: 7%;
+    width: 8%;
+}
+/* end */
+
+#objective {
+    position: absolute;
+    top: 65%;
+  left: 66%;
+  height: 27%;
+  width: 30%;
+    box-shadow: 0 0 25px 5px rgba(213, 224, 7, 0.5);
+    background: rgba(210, 221, 6, 0.15);
+}
+#objective:hover{
+    box-shadow: 0 0 25px 5px rgba(13, 255, 0, 0.5);
+    background: rgba(87, 240, 11, 0.15);
+}
